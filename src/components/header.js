@@ -11,7 +11,7 @@ const Header = (props) => {
         <button className="navbar-toggler">
           <span className="navbar-toggler-icon"></span>
         </button>
-        =
+        
       </div>
     </nav>
   );
