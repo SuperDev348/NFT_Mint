@@ -15,6 +15,16 @@ const Footer = () => {
                       <img src="images/instagram.svg" alt="" />
                     </a>
                   </li>
+                  <li>
+                    <a href="https://discord.gg/HQdtsyPc" target="_blank">
+                      <img src="images/discord.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/nft_kick" target="_blank">
+                      <img src="images/twitter.svg" alt="" />
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
