@@ -14,6 +14,12 @@ const Home = () => {
   const [isMint, setIsMint] = useState(false)
   const [address, setAddress] = useState('')
 
+  const handleIncrease = () => {
+    setAmount(Math.min(10, amount + 1))
+  }
+  const handleDecrease = () => {
+    setAmount(Math.max(1, amount - 1))
+  }
   const handleConnect = () => {
     connect()
     .then((res) => {
