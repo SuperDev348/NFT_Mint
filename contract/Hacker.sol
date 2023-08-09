@@ -41,21 +41,6 @@ library Strings {
         return string(buffer);
     }
 
-    /**
-     * @dev Converts a `uint256` to its ASCII `string` hexadecimal representation.
-     */
-    function toHexString(uint256 value) internal pure returns (string memory) {
-        if (value == 0) {
-            return "0x00";
-        }
-        uint256 temp = value;
-        uint256 length = 0;
-        while (temp != 0) {
-            length++;
-            temp >>= 8;
-        }
-        return toHexString(value, length);
-    }
 
     /**
      * @dev Converts a `uint256` to its ASCII `string` hexadecimal representation with fixed length.
