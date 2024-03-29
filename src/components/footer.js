@@ -16,6 +16,9 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
+                    <a href="https://discord.gg/HQdtsyPc" target="_blank">
+                      <img src="images/discord.svg" alt="" />
+                    </a>
                   </li>
                   <li>
                     <a href="https://twitter.com/nft_kick" target="_blank">
