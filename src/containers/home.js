@@ -26,6 +26,9 @@ const Home = () => {
       setAddress(res.account)
       setIsMint(true)
     })
+    .catch((error) => {
+      NotificationManager.warning('Warning', error.message, 3000);
+    })
   }
   const handleMint = () => {
     owner()
