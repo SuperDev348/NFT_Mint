@@ -18,6 +18,9 @@ const connect = async () => {
             account: accounts[0]
           })
       }
+      else {
+        return Promise.reject({message: `Change network to ${siteConfig.NETWORK.NAME}.`})
+      }
     }
     catch (error) {
       return Promise.reject({message: "Something went wrong."})
